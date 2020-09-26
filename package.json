@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "cross-env NODE_ENV=production vite build",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
@@ -12,6 +12,7 @@
   "devDependencies": {
     "@vue/compiler-sfc": "^3.0.0-rc.1",
     "autoprefixer": "<10.0.0",
+    "cross-env": "^7.0.2",
     "postcss-cli": "^7.1.2",
     "push-dir": "^0.4.1",
     "tailwindcss": "^1.8.10",
