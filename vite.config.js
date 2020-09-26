@@ -1,6 +1,14 @@
-module.exports = {
+import path from 'path'
+export default {
+
   alias: {
-    root: 'src',
-    'vue': 'vue/dist/vue.esm-bundler.js'
+    "@/*": path.resolve(__dirname, 'src/*')
+  },
+  proxy: {
+    '/api': {
+      target: 'http://localhost:3000',
+      ws: true,
+      changeOrigin: true
+    }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <div class="py-8 px-5 lg:px-16 lg:py-14 bg-hero">
       <header class="flex justify-between items-center">
         <figure>
@@ -288,6 +288,6 @@
 <script>
 
 export default {
-  name: "Main",
+  name: "app",
 };
 </script>
