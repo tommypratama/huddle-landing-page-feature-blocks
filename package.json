@@ -1,6 +1,7 @@
 {
   "name": "huddle-landing-page-with-alternating-feature-blocks",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
