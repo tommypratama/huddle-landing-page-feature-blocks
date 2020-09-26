@@ -286,6 +286,7 @@
 </template>
 
 <script>
+
 export default {
   name: "Main",
 };
