@@ -13,9 +13,14 @@ module.exports = {
 		purgeLayersByDefault: true,
 	},
 	purge: {
-		enabled: process.env.NODE_ENV === 'production',
-		content: ['src/**/*.vue', 'src/**/*.js', 'index.html'],
-	},
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      './index.html',
+      './src/**/*.vue',
+      './src/**/*.js',
+      // etc.
+    ],
+  },
 	theme: {
 		fontFamily: {
 			display: ['Poppins', 'sans-serif'],
