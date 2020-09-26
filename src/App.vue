@@ -3,7 +3,7 @@
     <div class="py-8 px-5 lg:px-16 lg:py-14 bg-hero">
       <header class="flex justify-between items-center">
         <figure>
-          <img class="w-32 lg:w-48" src="./assets/images/logo.svg" alt="logo" />
+          <img class="w-32 lg:w-48" src="/images/logo.svg" alt="logo" />
         </figure>
         <button
           class="font-bold text-sm bg-white py-3 px-12 rounded-full border shadow-md text-very-dark-cyan"
@@ -36,7 +36,7 @@
           <figure>
             <img
               class="w-11/12 mx-auto lg:w-full lg:ml-4"
-              src="./assets/images/illustration-mockups.svg"
+              src="/images/illustration-mockups.svg"
               alt="Illustration Mockups"
             />
           </figure>
@@ -51,7 +51,7 @@
         >
           <figure class="lg:ml-32">
             <img
-              src="./assets/images/illustration-grow-together.svg"
+              src="/images/illustration-grow-together.svg"
               alt="Illustration Grow Together"
             />
           </figure>
@@ -76,7 +76,7 @@
         >
           <figure class="lg:mr-32">
             <img
-              src="./assets/images/illustration-flowing-conversation.svg"
+              src="/images/illustration-flowing-conversation.svg"
               alt="Illustration Grow Together"
             />
           </figure>
@@ -101,7 +101,7 @@
         >
           <figure class="ml-32">
             <img
-              src="./assets/images/illustration-your-users.svg"
+              src="/images/illustration-your-users.svg"
               alt="Illustration Grow Together"
             />
           </figure>

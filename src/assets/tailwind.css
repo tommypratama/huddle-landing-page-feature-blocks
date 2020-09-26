@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap'); */
 
 @tailwind base;
 
@@ -7,14 +7,14 @@
 @tailwind utilities;
 
 .bg-hero {
-	background-image: url(./images/bg-hero-mobile.svg);
+	background-image: url(/images/bg-hero-mobile.svg);
 	background-color: #ebfbff;
 	@apply object-cover;
 }
 
 @screen lg {
 	.bg-hero {
-		background-image: url(./images/bg-hero-desktop.svg);
+		background-image: url(/images/bg-hero-desktop.svg);
 		background-color: #ebfbff;
 		@apply object-cover;
 	}
