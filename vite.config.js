@@ -1,3 +1,5 @@
-// module.exports = {
-//   base: "/huddle-landing-page-feature-blocks/",
-// };
+module.exports = {
+  base: process.env.NODE_ENV === 'production'
+    ? '/huddle-landing-page-feature-blocks/'
+    : '/'
+}
