@@ -1,3 +1,3 @@
 module.exports = {
-  base: "https://tommypratama.github.io/huddle-landing-page-feature-blocks/",
+  base: "/huddle-landing-page-feature-blocks/",
 };
