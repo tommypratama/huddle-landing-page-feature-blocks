@@ -10,12 +10,12 @@
     "vue": "^3.0.0-rc.1"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "@vue/compiler-sfc": "^3.0.0",
     "autoprefixer": "<10.0.0",
     "cross-env": "^7.0.2",
     "postcss-cli": "^7.1.2",
     "push-dir": "^0.4.1",
     "tailwindcss": "^1.8.10",
-    "vite": "^1.0.0-rc.1"
+    "vite": "^1.0.0-rc.4"
   }
 }
