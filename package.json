@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1"
@@ -12,6 +13,7 @@
     "@vue/compiler-sfc": "^3.0.0-rc.1",
     "autoprefixer": "<10.0.0",
     "postcss-cli": "^7.1.2",
+    "push-dir": "^0.4.1",
     "tailwindcss": "^1.8.10",
     "vite": "^1.0.0-rc.1"
   }
