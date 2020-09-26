@@ -7,14 +7,14 @@
 @tailwind utilities;
 
 .bg-hero {
-	background-image: url(images/bg-hero-mobile.svg);
+	background-image: url(/images/bg-hero-mobile.svg);
 	background-color: #ebfbff;
 	@apply object-cover;
 }
 
 @screen lg {
 	.bg-hero {
-		background-image: url(images/bg-hero-desktop.svg);
+		background-image: url(/images/bg-hero-desktop.svg);
 		background-color: #ebfbff;
 		@apply object-cover;
 	}
