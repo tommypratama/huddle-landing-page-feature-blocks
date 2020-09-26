@@ -1,3 +1,3 @@
-module.exports = {
-  base: "/huddle-landing-page-feature-blocks/",
-};
+// module.exports = {
+//   base: "/huddle-landing-page-feature-blocks/",
+// };

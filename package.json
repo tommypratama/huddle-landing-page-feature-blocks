@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/huddle-landing-page-feature-blocks/",
     "build-prod": "cross-env NODE_ENV=production vite build",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
